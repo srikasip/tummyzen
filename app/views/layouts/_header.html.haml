@@ -1,13 +1,5 @@
-.navbar.navbar-fixed-top
-  .navbar-inner
-    .container-fluid
-      %a.btn.btn-navbar{"data-toggle"=>'collapse', 'data-target'=>'.nav-collapse'}
-        %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
-
-      =link_to 'Sample Site', root_path, :class=>'brand'
-      .nav-collapse
-        %ul.nav.pull-right
-          %li=link_to "About", static_pages_about_path
-          %li=link_to "Home", root_path 
+.header
+  =link_to "HOME", root_path, :class=>'heading'
+  =link_to "OUR STORY", story_path, :class=>'heading'
+  =link_to "HOW IT WORKS", how_path, :class=>'heading'
+  =link_to "PURCHASE", purchase_path, :class=>'heading'

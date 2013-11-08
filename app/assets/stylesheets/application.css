@@ -12,30 +12,23 @@
  *= require_tree .
  */
 
-html, body { height:100%;}
-#wrap { min-height:100%;}
+html, body 
+{ 
+  height:100%;
+  width:100%;
+  font-size:15pt;
+
+}
+#wrap 
+{ 
+  min-height:100%;
+}
 
 #main 
 { 
   overflow:auto;
   padding-bottom:40px;
 }
-.footer
-{
-  position:relative;
-  margin-top:-40px;
-  height:40px;
-  clear:both;
-  width:100%;
-  background-color:#f5f5f5;
-}
-
-
-@media (min-width: 979px) /* Only include padding when the viewport is bigger */
-{
-  #main{padding-top:60px;}
-}
-
 
 @media (max-width: 767px) 
 {
@@ -47,3 +40,96 @@ html, body { height:100%;}
     margin-right: -20px;
   }
 }
+
+.heading
+{
+  font-size:1.26em;
+}
+.caption
+{
+  font-size:0.8em;
+}
+.green
+{
+  color:#bad87c;
+}
+.grey
+{
+  color:#808184;
+}
+.white
+{
+  color:#ffffff;
+}
+.black
+{
+  color:#000000;
+}
+
+
+.header
+{
+  padding-bottom:15px;
+  padding-top:15px;
+  background-color:#000000;
+  text-align:left;
+}
+
+.header a
+{
+  color:#bad87c;
+  margin-left:20px;
+  cursor:pointer;
+}
+
+.header a:hover
+{
+  color:#baff7c;
+  text-decoration:none;
+}
+.header a:active
+{
+  color:#bac07c;
+}
+.header a.current: 
+{
+  color:#ffffff;
+}
+
+
+
+.footer
+{
+  position:relative;
+  margin-top:-40px;
+  height:40px;
+  clear:both;
+  width:100%;
+  background-color:#ffffff;
+}
+.footer .linkBox
+{
+  float:right;
+  padding-right:20px;
+}
+.footer .linkBox a
+{
+  margin-right:20px;
+  color:#808184;
+}
+.footer .linkBox a:active
+{
+  color:#606060;
+}
+
+.footer .linkBox a:visited
+{
+  text-decoration:none;
+  color:#808184;
+}
+
+
+
+
+
+

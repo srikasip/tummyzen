@@ -1,10 +1,6 @@
 
 %footer.footer
-  .container-fluid
-    .btn-group.pull-right{:style=>'margin-top:5px; '}
-      .btn
-        =link_to 'Home', root_path
-      .btn
-        =link_to 'About', static_pages_about_path
-    %p.navbar-text
-      Everyone deserves to become her best self
+  .linkBox
+    =link_to 'Contact', '#', :class=>'caption'
+    =link_to 'FAQs', faq_path, :class=>'caption'
+    =link_to 'Where to Buy', where_path, :class=>'caption'
