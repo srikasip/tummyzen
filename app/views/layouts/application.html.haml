@@ -21,6 +21,7 @@
 
 
   %body
+    .background_floater
     #wrap
       /Header Stuff and flash message content
       = render 'layouts/header'
@@ -28,6 +29,15 @@
 
       /Main Body Content
       #main.container-fluid
-        = yield
+        .logoRow
+          .buy-now
+            .clickBox.rounded-corners
+              =link_to 'Buy Now', purchase_path, :class=>"heading"
+            =link_to 'Join Our Mailing List', '#', :class=>'gray'
+          .logoBox
+            =link_to image_tag('LOGO.png'), root_path
+
+        .mainBody
+          = yield
     /Footer Content
     = render 'layouts/footer'

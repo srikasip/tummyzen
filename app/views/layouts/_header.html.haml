@@ -1,5 +1,5 @@
 .header
-  =link_to "HOME", root_path, :class=>'heading'
-  =link_to "OUR STORY", story_path, :class=>'heading'
-  =link_to "HOW IT WORKS", how_path, :class=>'heading'
-  =link_to "PURCHASE", purchase_path, :class=>'heading'
+  %a{:class => page_nav=='home' ? 'heading active' : 'heading in_active', :href=>root_path}='HOME'
+  %a{:class => page_nav=='story' ? 'heading active' : 'heading in_active', :href=>story_path}='OUR STORY'
+  %a{:class => page_nav=='how' ? 'heading active' : 'heading in_active', :href=>how_path}='HOW IT WORKS'
+  %a{:class => page_nav=='purchase' ? 'heading active' : 'heading in_active', :href=>purchase_path}='PURCHASE'
