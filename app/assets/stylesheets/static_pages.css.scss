@@ -10,11 +10,10 @@ div.background_floater
   position:absolute;
   top:20%;
   left:30px;
-  z-index: 0;
-
   background-image: image-url('MOLECULES_medium.png');
   background-repeat: no-repeat;
   background-position: center center;
+  z-index: -1;
 }
 
 div.logoRow
@@ -73,6 +72,14 @@ div.logoRow
   color:#000000;
   text-decoration:none;
 }
+.purchase-now .clickBox
+{
+  margin-left:0px;
+  margin-right:0px;
+  float:left;
+}
+
+
 
 .rounded-corners
 {
@@ -93,7 +100,7 @@ div.logoRow
 
 .bottle_image
 {
-  height:25em;
+  height:20em;
   width:auto;
 }
 
@@ -118,4 +125,13 @@ div.logoRow
   margin-top: 10px;
   text-align:left;
   clear:both;
+}
+.nutritStuff
+{
+  float:right;
+}
+.nutritStuff img
+{
+  width:400px;
+  height:auto;
 }

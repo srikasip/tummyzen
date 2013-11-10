@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  layout :layout_picker
+
   def home
     session[:curr_page] = 'home'
   end
@@ -23,4 +25,14 @@ class StaticPagesController < ApplicationController
     session[:curr_page] = 'faq'
   end
 
+
+  private
+  def layout_picker
+    case action_name
+    when "purchase"
+      "purchase_layout"
+    else
+      "application"
+    end
+  end
 end

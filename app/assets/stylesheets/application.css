@@ -16,7 +16,7 @@ html, body
 {
   height:100%;
   width:100%;
-  font-size:15pt;
+  font-size:18pt;
   font-family: Helvetica;
 
 }
@@ -44,7 +44,7 @@ html, body
 
 .heading
 {
-  font-size:1.26em;
+  font-size:1.4em;
 }
 .caption
 {
