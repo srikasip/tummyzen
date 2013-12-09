@@ -17,7 +17,11 @@ html, body
   height:100%;
   width:100%;
   font-size:18pt;
-  font-family: Helvetica;
+  font-family: 'Open Sans', Helvetica;
+  /*
+  As for google fonts, how about trade out Helvetica for Open Sans Normal, 
+  and Univers for Roboto Light. 
+  */
 
 }
 #wrap
@@ -45,10 +49,19 @@ html, body
 .heading
 {
   font-size:1.4em;
+  font-family: 'Roboto Slab', serif;
 }
 .caption
 {
   font-size:0.8em;
+}
+.left-text
+{
+  text-align:left;
+}
+.opaque-back
+{
+  background-color: #ffffff;
 }
 .green
 {
@@ -66,7 +79,6 @@ html, body
 {
   color:#000000;
 }
-
 
 .header
 {
