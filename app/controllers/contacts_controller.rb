@@ -27,19 +27,14 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(contact_params)
 
-    respond_to do |format|
-      if @contact.save
-        if ContactMailer.contact_mailer(@contact).deliver
-          format.html { redirect_to @contact, notice: 'Contact was successfully created.' }
-          format.json { render action: 'show', status: :created, location: @contact }
-        else
-          format.html { render action: 'new' }
-          format.json { render json: @contact.errors, status: :unprocessable_entity }
-        end
+    if @contact.save
+      if ContactMailer.contact_mailer(@contact).deliver
+        redirect_to root_path, notice: 'Contact was successfully created.'
       else
-        format.html { render action: 'new' }
-        format.json { render json: @contact.errors, status: :unprocessable_entity }        
+        render action: 'new'
       end
+    else
+      render action: 'new'
     end
   end
 
