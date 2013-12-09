@@ -1,4 +1,6 @@
 Samplesite1::Application.routes.draw do
+  resources :contacts
+
   get "static_pages/home"
   get "static_pages/story", :as => :story
   get "static_pages/how", :as => :how

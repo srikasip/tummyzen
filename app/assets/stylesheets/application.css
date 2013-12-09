@@ -46,6 +46,29 @@ html, body
   }
 }
 
+input.submit-button
+{
+  font-size:1.4em;
+  font-family: 'Roboto Slab', serif;
+  border:none;
+  min-width:8em;
+  min-height:2em;
+  background-color:#808184;
+  color:#ffffff;
+}
+input.submit-button:hover
+{
+  color:#bad87c;
+}
+input.submit-button:active
+{
+  color:#000000;
+}
+
+.left-align-form
+{
+  margin-left:1em;
+}
 .heading
 {
   font-size:1.4em;
@@ -154,8 +177,13 @@ html, body
   max-width:600px;
   z-index:9;
 }
-
-
-
+.field input
+{
+  width:100%;
+}
+.field textarea
+{
+  width:100%;
+}
 
 

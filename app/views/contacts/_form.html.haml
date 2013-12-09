@@ -1,0 +1,18 @@
+= form_for @contact do |f|
+  - if @contact.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@contact.errors.count, "error")} prohibited this contact from being saved:"
+      %ul
+        - @contact.errors.full_messages.each do |msg|
+          %li= msg
+
+  .field.span4
+    = f.text_field :name, :placeholder => 'Your name so we can address you'
+  .field.span4
+    = f.text_field :email, :placeholder => 'Your email address so we can reach you'
+  .field.span4
+    = f.text_field :subject, :placeholder => 'Subject of your message'
+  .field.span4
+    = f.text_area :message, :placeholder => 'Your message'
+  .actions.span4
+    = f.submit 'Send', :class=> 'submit-button rounded-corners'
