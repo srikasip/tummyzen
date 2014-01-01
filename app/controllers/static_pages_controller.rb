@@ -13,6 +13,10 @@ class StaticPagesController < ApplicationController
     session[:curr_page] = 'how'
   end
 
+  def how_more
+    session[:curr_page] = 'how'
+  end
+
   def purchase
     session[:curr_page] = 'purchase'
   end

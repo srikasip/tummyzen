@@ -4,6 +4,7 @@ Samplesite1::Application.routes.draw do
   get "static_pages/home"
   get "static_pages/story", :as => :story
   get "static_pages/how", :as => :how
+  get "static_pages/how_more", :as => :how_more
   get "static_pages/purchase", :as => :purchase
   get "static_pages/faq", :as => :faq
   get "static_pages/where", :as => :where

@@ -5,14 +5,14 @@
 
 div.background_floater
 {
-  height:480px;
-  width:640px; 
+  height:600px;
+  width:650px; 
   position:absolute;
-  top:20%;
+  top:12%;
   left:30px;
-  background-image: image-url('MOLECULES_medium.png');
+  background-image: image-url('Zinc_Background.png');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
   z-index: -1;
 }
 

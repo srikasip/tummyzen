@@ -11,8 +11,6 @@ module ApplicationHelper
         page_nav = "how"
       when "purchase"
         page_nav = "purchase"
-      when "where"
-        page_nav = "purchase"
       when "faq"
         page_nav = "faq"
       else
