@@ -72,11 +72,33 @@ div.logoRow
   color:#000000;
   text-decoration:none;
 }
+
 .purchase-now .clickBox
 {
   margin-left:0px;
   margin-right:0px;
   float:left;
+}
+
+.submit
+{
+  color:#ffffff;
+  cursor:pointer;
+  width:25em;
+  margin-left:40px;
+  margin-right:40px;
+  border:0px;
+  border-style:none;
+}
+.submit:hover
+{
+  color:#808182;
+  text-decoration:none;
+}
+.submit:active
+{
+  color:#000000;
+  text-decoration:none;
 }
 
 
