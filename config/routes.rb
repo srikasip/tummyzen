@@ -8,6 +8,7 @@ Samplesite1::Application.routes.draw do
   get "static_pages/purchase", :as => :purchase
   get "static_pages/faq", :as => :faq
   get "static_pages/where", :as => :where
+  
 
   root "static_pages#home"
   # The priority is based upon order of creation: first created -> highest priority.
