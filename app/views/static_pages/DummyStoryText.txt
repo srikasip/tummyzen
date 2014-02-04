@@ -23,3 +23,49 @@
     %p
       Together, the pair breathed life into Dr. Geibel's ground-breaking research and founded TummyZen. Their young company is rooted in a philosophy that nature-friendly ingredients backed by rigorous scientific methods create effective, and safe products.
     %br
+
+
+----------FAQ Section-----------
+
+    %p
+      %span.heading.black
+        What are the best foods for a person with acid reflux?
+      %br
+      The foods highlighted below are particularly helpful for reducing reflux. Having more of these foods will help give you the best chance for reducing your heartburn symptoms.
+      %ul
+        %li='Whole-Grain Bread'
+        %li='Oatmeal'
+        %li='Ginger'
+        %li='Aloe Vera'
+        %li='Salad'
+        %li='Banana'
+        %li='Melon'
+        %li='Fennel'
+        %li='Chicken and Turkey'
+        %li='Fish and Seafood'
+        %li='Cauliflower, Broccoli, Asparagus, Green Beans, and Other Greens'
+        %li='Celery'
+        %li='Parsley'
+        %li='Couscous and Rice'
+      Source: Stern and Bauer. Dropping Acid: The Reflux Diet Cookbook & Cure (c) G&H Soho, Inc. What are some foods that are notoriously bad for reflux?
+    %br
+    %p
+      %span.heading.black
+        What are the worst foods for a person with acid reflux?
+      %br
+      Some foods are almost universally problematic for people with reflux. The best strategy for the refluxer is to avoid the "bad" foods:
+      %ul
+        %li='Chocolate'
+        %li='Soda'
+        %li='Alcohol'
+        %li='Any deep-fried food'
+        %li='Bacon, sausage, ribs'
+        %li='Cream sauce'
+        %li='Fatty meat'
+        %li='Butter, margarine, lard, shortening'
+        %li='Coffee, tea'
+        %li='Mint'
+        %li='High-fat nuts'
+        %li='Hot sauces and pepper'
+        %li='Citrus fruit/juices'
+      Source: Stern and Bauer. Dropping Acid: The Reflux Diet Cookbook & Cure (c) G&H Soho, Inc.
