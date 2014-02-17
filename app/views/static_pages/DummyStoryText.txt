@@ -69,3 +69,22 @@
         %li='Hot sauces and pepper'
         %li='Citrus fruit/juices'
       Source: Stern and Bauer. Dropping Acid: The Reflux Diet Cookbook & Cure (c) G&H Soho, Inc.
+
+
+
+
+
+
+
+
+
+  .purchase-now.buy-now
+    %form{:action => 'https://www.paypal.com/cgi-bin/webscr', :method=>'post', :target=>'_blank'}
+      %input{:type=>'hidden', :name=>'cmd', :value=>'_s-xclick'}
+      %input{:type=>'hidden', :name=>'hosted_button_id', :value=>'F33MK4RA53XNS'}
+      %input{:type=>'submit', :border=>'0', :name=>'submit', :class=>'clickBox rounded-corners heading submit', :value=>'Buy Now'}
+      %img{:alt=>'', :border=>'0', :src=>'https://www.paypalobjects.com/en_US/i/scr/pixel.gif', :width=>'1', :height=>'1'}
+      %div{:style=>'clear:both;'}
+      %ul.caption.gray.left-text
+        %li= 'Processed by PayPal'
+        %li= 'TummyZen does not store any payment information'
