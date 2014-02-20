@@ -163,7 +163,12 @@ input.submit-button:active
   text-decoration:none;
   color:#808184;
 }
-
+.disclaimerBox
+{
+  float:left;
+  width:40%;
+  margin-left:20px;
+}
 .mainBody
 {
 
@@ -172,9 +177,7 @@ input.submit-button:active
   margin-left:auto;
   margin-right:auto;
   text-align:left;
-
-  width:100%;
-  max-width:600px;
+  width:700px;
   z-index:9;
 }
 .field input

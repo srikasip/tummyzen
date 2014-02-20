@@ -1,4 +1,7 @@
 %footer.footer
+  -if page_nav== 'story' || page_nav == 'how'
+    .disclaimerBox.gray.caption
+      * These statements have not been evaluated by the FDA. This product is not intended to diagnose, treat, cure, or prevent and disease.
   .linkBox
     =link_to 'Contact', new_contact_path
     =link_to 'FAQs', faq_path
